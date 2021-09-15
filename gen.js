@@ -5,7 +5,6 @@ var hbs = require('hbs');
 const custom = require('./preset.js').preset;
 exports.custom = custom;
 
-var stati = require('./static/charts/stations.json')
 hbs.registerPartials(__dirname + '/views/partials', function (err) {
 	custom.then(chrts => {
 		fileWrite(chrts, __dirname+'/static/preset.json') 
