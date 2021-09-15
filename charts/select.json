@@ -1,0 +1,15 @@
+{
+	"selector": true,
+	"groups": {
+		"0": {
+			"enabled": true,
+			"prime": true
+		},
+		"1": {
+			"enabled": false
+		},
+		"2": {
+			"enabled": false
+		}
+	}
+}

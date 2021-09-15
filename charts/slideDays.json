@@ -1,0 +1,12 @@
+{
+	"unitType": "day",
+	"groups": {
+		"0": {
+			"enabled": true,
+			"prime": true
+		},
+		"1": {
+			"enabled": true
+		}
+	}
+}

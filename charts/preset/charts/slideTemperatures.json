@@ -1,0 +1,25 @@
+{
+	"id": "slideTemperature",
+	"type": "[stationType]",
+	"tag": {
+		"render": ["temperatures","yrlySlide"],
+		"data": ["temperatures","yrly"]
+	},
+	"config": {
+		"meta": {
+			"smhi": {
+				"data": "SMHI-Weather",
+				"config": "temperature",
+				"lang": "annualTemperature",
+				"set": "slide"
+			},
+			"abisko": {
+				"data": "ANS",
+				"config": "temperature",
+				"lang": "annualTemperature",
+				"set": "slide"
+			}
+		}
+	},
+	"months": false
+}
