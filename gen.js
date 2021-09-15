@@ -2,7 +2,7 @@ var fs = require('fs');
 // Pre-setup
 var $ = require("jquery");
 var hbs = require('hbs');
-const custom = require('./config/preset.js').preset;
+const custom = require('./preset.js').preset;
 exports.custom = custom;
 
 var stati = require('./static/charts/stations.json')
