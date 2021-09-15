@@ -400,7 +400,7 @@
 		"extremeTempDailyLim": {
 			"context": false,
 			"station": "abisko",
-			"plot": "extremeTempDailyLim",
+			"plot": "extremeTempDailyHighLim",
 			"override": {
 				"axislim": false
 			},
