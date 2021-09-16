@@ -63,7 +63,9 @@ exports.genStaticFiles = function(DIR){
 				})
 				fileWrite(stations, DIR+'/static/charts/stations.json');
 			})
-			res(true)
+			return true
+		}catch(error){
+			return false
 		}
 	})
 }
