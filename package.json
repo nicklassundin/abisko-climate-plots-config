@@ -1,6 +1,6 @@
 {
   "name": "climate-plots-config",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nicklassundin/abisko-climate-plots-config/issues"
   },
-  "homepage": "https://github.com/nicklassundin/abisko-climate-plots-config#readme"
+  "homepage": "https://github.com/nicklassundin/abisko-climate-plots-config#readme",
+  "dependencies": {
+    "npm-auto-version": "^1.0.0"
+  }
 }
