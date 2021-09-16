@@ -397,7 +397,7 @@
 		}
 	},
 	"viz-extreme-temp-high-20": {
-		"extremeTempDailyLim": {
+		"extremeTempDailyHighLim": {
 			"context": false,
 			"station": "abisko",
 			"plot": "extremeTempDailyHighLim",
@@ -416,7 +416,7 @@
 		}
 	},
 	"viz-extreme-temp-low-10": {
-		"extremeTempDailyLim": {
+		"extremeTempDailyLowLim": {
 			"context": false,
 			"station": "abisko",
 			"plot": "extremeTempDailyLowLim",

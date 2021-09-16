@@ -42,6 +42,34 @@
 			},
 			"caption": "The wettest [unit] of the year (total precipitation in mm).",
 			"legend": "Weather"
+		},
+		"3": {
+			"title": "Extreme Weather event, Days Above [lim] [mm]", 
+			"subTitle": "[stationName]",
+			"caption": "", 
+			"yAxis": {
+				"left": "" ,
+				"right": "[X-AXIS]"
+			},
+			"xAxis": {
+				"bott": "Year", 
+				"top": "[Y-AXIS]"
+			},
+			"legend": "Weather"
+		},
+		"4": {
+			"title": "Extreme Weather event, Days Below [lim] [mm]", 
+			"subTitle": "[stationName]",
+			"caption": "", 
+			"yAxis": {
+				"left": "" ,
+				"right": "[X-AXIS]"
+			},
+			"xAxis": {
+				"bott": "Year", 
+				"top": "[Y-AXIS]"
+			},
+			"legend": "Weather"
 		}
 	},
 	"series": {
