@@ -1,11 +1,12 @@
 {
   "name": "climate-plots-config",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "mocha",
     "prepublish": "npm-auto-version",
+    "publish": "npm publish --access public",
     "postpublish": "git push origin --tags"
   },
   "repository": {
