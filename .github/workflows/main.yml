@@ -34,8 +34,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: version number update
-      run: npm run prepublish
-    - name: publish 
-      run: npm publish
+      run: npm run prepublish 
+    - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ 6a300122-b583-4d25-8b44-b36bd176d201 }}
