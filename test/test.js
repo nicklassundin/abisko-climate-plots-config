@@ -1,8 +1,8 @@
 const app = require('../app.js');
+const fs = require('fs');
 
 describe('test build', (done) => {
 	it('load and write', (done) => {
-		const fs = require('fs');
 
 		// directory path
 		// create new directory
@@ -24,6 +24,16 @@ describe('test build', (done) => {
 			done();
 		}).catch((error) => {
 			done(error);
+		});
+	});
+	after(function() {
+		var dir = './test/static'
+		fs.rmdir(dir, { recursive: true }, (err) => {
+			if (err) {
+				throw err;
+			}
+
+			console.log(`${dir} is deleted!`);
 		});
 	});
 });
