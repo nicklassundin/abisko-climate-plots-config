@@ -5,9 +5,6 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
-    "prepublish": "npm-auto-version",
-    "publish": "npm publish --access public",
-    "postpublish": "git push origin --tags",
     "lint": "eslint .",
     "lint-fix": "eslint -- --fix"
   },
