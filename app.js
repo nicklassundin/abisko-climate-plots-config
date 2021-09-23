@@ -2,7 +2,6 @@
 const hbs = require('hbs');
 const custom = require('./preset').preset;
 exports.custom = custom;
-
 exports.genStaticFiles = function (DIR) {
 	const fs = require('fs');
 	const fileWrite = function (json, file) {
