@@ -1,4 +1,3 @@
-var fs = require('fs');
 // Pre-setup
 var $ = require("jquery");
 var hbs = require('hbs');
@@ -8,18 +7,19 @@ exports.custom = custom;
 
 /////
 
-var fileWrite = function(json, file){
-	fs.exists(file, function (exists) {
-		if(exists){
-			fs.writeFile(file, JSON.stringify(json,null,2), (ERROR) => {
-				if(ERROR) throw ERROR
-			})
-		}else{
-			fs.writeFile(file, JSON.stringify(json,null,2), {flag: 'wx'}, function (err,data) {})
-		}
-	})
-}
 exports.genStaticFiles = function(DIR){
+	var fs = require('fs');
+	var fileWrite = function(json, file){
+		fs.exists(file, function (exists) {
+			if(exists){
+				fs.writeFile(file, JSON.stringify(json,null,2), (ERROR) => {
+					if(ERROR) throw ERROR
+				})
+			}else{
+				fs.writeFile(file, JSON.stringify(json,null,2), {flag: 'wx'}, function (err,data) {})
+			}
+		})
+	}
 	return new Promise((res, rej) => {
 		try{
 			hbs.registerPartials(DIR + '/views/partials', function (err) {
