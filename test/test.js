@@ -6,13 +6,13 @@ describe('test build', (done) => {
 
 		// directory path
 		// create new directory
-		fs.mkdir('./test/static', (err) => {
+		if(!fs.existsSync('./test/static')) fs.mkdir('./test/static', (err) => {
 			if (err) {
 				throw err;
 			}
 			console.log("Directory is created.");
 		});
-		fs.mkdir('./test/static/charts', (err) => {
+		if(!fs.existsSync('./test/static/charts')) fs.mkdir('./test/static/charts', (err) => {
 			if (err) {
 				throw err;
 			}
