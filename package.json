@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "build": "node charts/lang/reinit.js",
     "test": "mocha",
     "lint": "eslint .",
     "lint-fix": "eslint -- --fix"
@@ -29,7 +30,8 @@
     "jquery": "^3.6.0",
     "jsdom": "^17.0.0",
     "merge": "^2.1.1",
-    "npm-auto-version": "^1.0.0"
+    "npm-auto-version": "^1.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.2",

@@ -1,41 +1,41 @@
 {
-	"valueSuffix": "days",
-	"groups": {
-		"0": {
-			"title": "Lake Ice Time", 
-			"subTitle": "Torneträsk",
-			"caption": "Number of days the lake is covered completely by ice.<Paste>",
-			"yAxis": {
-				"left": "Ice time [units]",
-				"right": "[X-AXIS]"
-			},
-			"xAxis": {
-				"bott": "Year", 
-				"top": "[Y-AXIS]"
-			},
-			"legend": "Weather"
-		},
-		"1": {
-			"title": "Lake Ice Time Difference (from Baseline)", 
-			"subTitle": "Torneträsk",
-			"caption": "Number of days the lake is covered completely by ice  difference from baseline period.",
-			"yAxis": {
-				"left": "Difference Ice time [units]",
-				"right": "[X-AXIS]"
-			},
-			"xAxis": {
-				"bott": "Year", 
-				"top": "[Y-AXIS]"
-			},
-			"legend": "Climate"
-		}
-	},
-	"series": {
-		"avg": {
-			"name": "Ice time" 
-		},
-		"diff": {
-			"name": "Difference"
-		}
-	}
+  "valueSuffix": "days",
+  "groups": {
+    "0": {
+      "title": "Lake Ice Time",
+      "subTitle": "Torneträsk",
+      "caption": "Number of days the lake is covered completely by ice.<Paste>",
+      "yAxis": {
+        "left": "Ice time [units]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Weather"
+    },
+    "1": {
+      "title": "Lake Ice Time Difference (from Baseline)",
+      "subTitle": "Torneträsk",
+      "caption": "Number of days the lake is covered completely by ice  difference from baseline period.",
+      "yAxis": {
+        "left": "Difference Ice time [units]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Climate"
+    }
+  },
+  "series": {
+    "avg": {
+      "name": "Ice time"
+    },
+    "diff": {
+      "name": "Difference"
+    }
+  }
 }

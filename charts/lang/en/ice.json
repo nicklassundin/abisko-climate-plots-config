@@ -1,27 +1,27 @@
 {
-	"valueSuffix": "",
-	"groups": {
-		"0": {
-			"title": "Freeze-up and break-up of lake ice" ,
-			"subTitle": "Torneträsk",
-			"caption": "", 
-			"yAxis": {
-				"left": "Ice break-up / freeze-up [date]",
-				"right": "[X-AXIS]"
-			},
-			"xAxis": {
-				"bott": "Year", 
-				"top": "[Y-AXIS]"
-			},
-			"legend": "Weather"
-		}
-	},
-	"series": {
-		"freeze": {
-			"name": "Freeze-up"
-		},
-		"breakup": {
-			"name": "Break-up"
-		}
-	}
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "Freeze-up and break-up of lake ice",
+      "subTitle": "Torneträsk",
+      "caption": "",
+      "yAxis": {
+        "left": "Ice break-up / freeze-up [date]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Weather"
+    }
+  },
+  "series": {
+    "freeze": {
+      "name": "Freeze-up"
+    },
+    "breakup": {
+      "name": "Break-up"
+    }
+  }
 }
