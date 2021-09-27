@@ -7,12 +7,16 @@ describe('test build', () => {
 			if (err) {
 				throw err;
 			}
-			done()
-			console.log("Directory is created.");
-		});
-		if(!fs.existsSync('./test/static/charts')) fs.mkdir('./test/static/charts', (err) => {
-			if (err) {
-				throw err;
+			if(!fs.existsSync('./test/static/charts')){
+
+				fs.mkdir('./test/static/charts', (err) => {
+					if (err) {
+						throw err;
+					}else{
+						done()
+					}
+					console.log("Directory is created.");
+				});
 			}else{
 				done()
 			}
