@@ -1,0 +1,24 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    }
+  },
+  "series": {
+    "co2": {
+      "name": ""
+    }
+  }
+}

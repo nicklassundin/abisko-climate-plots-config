@@ -1,0 +1,45 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "categories": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    }
+  },
+  "series": {
+    "1931": {
+      "name": ""
+    },
+    "1961": {
+      "name": ""
+    },
+    "1991": {
+      "name": ""
+    },
+    "allTime": {
+      "name": ""
+    }
+  }
+}

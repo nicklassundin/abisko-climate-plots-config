@@ -1,0 +1,60 @@
+{
+  "title": "",
+  "subTitle": "",
+  "xAxis": {
+    "left": "",
+    "right": ""
+  },
+  "yAxis": {
+    "bott": "",
+    "top": ""
+  },
+  "caption": "",
+  "type": "",
+  "groups": [
+    {
+      "title": "",
+      "subTitle": ""
+    },
+    {
+      "title": "",
+      "subTitle": ""
+    }
+  ],
+  "series": {
+    "avg": {
+      "group": "",
+      "visible": "",
+      "name": "",
+      "colour": "",
+      "type": ""
+    },
+    "diff": {
+      "group": "",
+      "visible": "",
+      "name": "",
+      "colour": "",
+      "type": ""
+    },
+    "max": {
+      "group": "",
+      "visible": "",
+      "name": "",
+      "colour": "",
+      "type": ""
+    },
+    "min": {
+      "group": "",
+      "visible": "",
+      "name": "",
+      "colour": "",
+      "type": ""
+    },
+    "linjer": {
+      "visible": "",
+      "name": "",
+      "colour": "",
+      "type": ""
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    },
+    "1": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    },
+    "2": {
+      "title": "",
+      "subTitle": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "caption": "",
+      "legend": ""
+    },
+    "3": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    },
+    "4": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    }
+  },
+  "series": {
+    "diff": {
+      "name": ""
+    },
+    "snow": {
+      "name": ""
+    },
+    "rain": {
+      "name": ""
+    },
+    "extreme": {
+      "name": ""
+    }
+  }
+}

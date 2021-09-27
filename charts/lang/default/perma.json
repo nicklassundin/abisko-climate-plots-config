@@ -1,0 +1,27 @@
+{
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": "",
+        "plotLines": {
+          "text": ""
+        }
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    }
+  },
+  "valueSuffix": "",
+  "series": {
+    "avg": {
+      "name": ""
+    }
+  }
+}

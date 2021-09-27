@@ -1,0 +1,47 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "select": {
+        "text": ""
+      },
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    },
+    "1": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "select": {
+        "text": ""
+      },
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
+    }
+  },
+  "series": {
+    "iceThick": {
+      "name": ""
+    },
+    "diff": {
+      "name": ""
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "legend": "",
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "yAxis": {
+        "left": "",
+        "right": ""
+      }
+    }
+  },
+  "series": {
+    "max": {
+      "name": ""
+    },
+    "min": {
+      "name": ""
+    },
+    "avg": {
+      "name": ""
+    },
+    "diff": {
+      "name": ""
+    }
+  }
+}
