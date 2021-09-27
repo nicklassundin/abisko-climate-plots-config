@@ -2,10 +2,7 @@ const app = require('../app.js');
 const fs = require('fs');
 
 describe('test build', (done) => {
-	it('load and write', (done) => {
-
-		// directory path
-		// create new directory
+	before(function() {
 		if(!fs.existsSync('./test/static')) fs.mkdir('./test/static', (err) => {
 			if (err) {
 				throw err;
@@ -18,6 +15,11 @@ describe('test build', (done) => {
 			}
 			console.log("Directory is created.");
 		});
+	})
+	it('load and write', (done) => {
+
+		// directory path
+		// create new directory
 		app.genStaticFiles(__dirname).then((res) => {
 			// expect(0).to.eql(10)
 			console.log(res);
