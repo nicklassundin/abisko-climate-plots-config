@@ -70,6 +70,20 @@
         "top": "[Y-AXIS]"
       },
       "legend": "Weather"
+    },
+    "5": {
+      "title": "Annual Average Precipitation Difference From Baseline",
+      "subTitle": "[stationName]",
+      "caption": "Difference between the yearly extreme daily avgerage precipitation and the average value for the baseline period, typically [baselineLower] to [baselineUpper].",
+      "yAxis": {
+        "left": "Precipitation [mm]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Climate"
     }
   },
   "series": {
