@@ -70,6 +70,20 @@
         "top": ""
       },
       "legend": ""
+    },
+    "5": {
+      "title": "",
+      "subTitle": "",
+      "caption": "",
+      "yAxis": {
+        "left": "",
+        "right": ""
+      },
+      "xAxis": {
+        "bott": "",
+        "top": ""
+      },
+      "legend": ""
     }
   },
   "series": {
