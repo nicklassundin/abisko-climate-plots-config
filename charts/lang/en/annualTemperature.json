@@ -70,6 +70,20 @@
         "top": "[Y-AXIS]"
       },
       "legend": "Weather"
+    },
+    "5": {
+      "title": "Temperature Difference From Baseline",
+      "subTitle": "[stationName]",
+      "caption": "Difference between the yearly extreme average daily temperature  and the average extreme daily temperature for the baseline period, typically [baselineLower] to [baselineUpper].",
+      "yAxis": {
+        "left": "Temperature [°C]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Climate"
     }
   },
   "series": {
