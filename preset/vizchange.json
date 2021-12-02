@@ -433,5 +433,25 @@
 				}	
 			}
 		}
+	},
+	"viz-extreme-temp-daily": {
+		"extremeTempDaily": {
+			"context": false,
+			"station": "abisko",
+			"plot": "extremeTempDaily",
+			"override": {
+				"axislim": false
+			}
+		}
+	},
+	"viz-extreme-prec-daily": {
+		"extremePrecDaily": {
+			"context": false,
+			"station": "abisko",
+			"plot": "extremePrecDaily",
+			"override": {
+				"axislim": false
+			}
+		}
 	}
 }
