@@ -71,6 +71,14 @@
 			"colour": "#ff0000", 
 			"type": "line"
 		},
+		"extreme-diff": {
+			"className": "series-diff",
+			"preset": "diff",
+			"group": "5",
+			"visible": true,
+			"colour": "[example]",
+			"type": "column" 
+		},
 		"1": {
 			"className": "series-temp-extreme",
 			"preset": "extreme",

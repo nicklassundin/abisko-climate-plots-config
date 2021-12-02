@@ -8,7 +8,7 @@
 			}
 		},
 		"1": {
-			"enabled": true,
+			"enabled": false,
 			"tooltip": {
 				"type": "valueDate"
 			}
@@ -19,6 +19,13 @@
 			"tooltip": {
 				"type": "valueDate"
 			}
+		},
+		"5": {
+			"enabled": true,
+			"tooltip": {
+				"type": "valueDate"
+			}
+
 		}
 	}
 }
