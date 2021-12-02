@@ -434,11 +434,21 @@
 			}
 		}
 	},
-	"viz-extreme-temp-daily": {
+	"viz-extreme-temp-high-daily": {
 		"extremeTempDaily": {
 			"context": false,
 			"station": "abisko",
-			"plot": "extremeTempDaily",
+			"plot": "extremeTempDailyHigh",
+			"override": {
+				"axislim": false
+			}
+		}
+	},
+	"viz-extreme-temp-low-daily": {
+		"extremeTempDaily": {
+			"context": false,
+			"station": "abisko",
+			"plot": "extremeTempDailyLow",
 			"override": {
 				"axislim": false
 			}
