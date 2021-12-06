@@ -1,0 +1,25 @@
+{
+	"id": "weeklyExtremePrecipitation",
+	"type": "[stationType]",
+	"tag": {
+		"render": ["precipitation","monthlyExtreme"],
+		"data": ["precipitation","monthsExtremeHigh"]
+	},
+	"config": {
+		"meta": {
+			"smhi": {
+				"data": "SMHI-Hydrology",
+				"config": "precipitation",
+				"lang": "annualPrecipitation",
+				"set":"slideExtremeMonth"
+			},
+			"abisko": {
+				"data": "ANS",
+				"config": "precipitation",
+				"lang": "annualPrecipitation",
+				"set":"slideExtremeMonth"
+			}
+		}
+	},
+	"months": false
+}
