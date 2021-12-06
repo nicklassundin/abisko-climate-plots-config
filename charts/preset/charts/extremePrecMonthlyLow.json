@@ -11,13 +11,13 @@
 				"data": "SMHI-Hydrology",
 				"config": "precipitation",
 				"lang": "annualPrecipitation",
-				"set":"slideExtremeMonth"
+				"set":"slideExtremeMonthLow"
 			},
 			"abisko": {
 				"data": "ANS",
 				"config": "precipitation",
 				"lang": "annualPrecipitation",
-				"set":"slideExtremeMonth"
+				"set":"slideExtremeMonthLow"
 			}
 		}
 	},
