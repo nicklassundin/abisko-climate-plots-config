@@ -1,0 +1,15 @@
+{
+	"unitType": "month",
+	"groups": {
+		"0": {
+			"enabled": false
+		},
+		"1": {
+			"enabled": true
+		},
+		"2": {
+			"prime": true,
+			"enabled": true
+		}
+	}
+}
