@@ -1,5 +1,8 @@
 {
 	"unitType": "month",
+	"extreme": {
+		"type": "high"
+	},
 	"groups": {
 		"0": {
 			"enabled": false
