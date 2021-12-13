@@ -19,8 +19,8 @@
 			"preset": "extreme",
 			"group": "0", 
 			"visible": true,
-			"colour": "#0000ff", 
-			"type": "bar",
+			"colour": "#ff0000", 
+			"type": "line",
 			"decimals": 0,
 			"keys": ["y", "color"]
 		},
@@ -38,7 +38,7 @@
 			"group": "2", 
 			"visible": true,
 			"colour": "#0000ff", 
-			"type": "bar",
+			"type": "line",
 			"decimals": 0,
 			"keys": ["y", "color"]
 		}
