@@ -55,7 +55,7 @@
       "week": "weekly",
       "day": "daily"
     },
-    "extreme-diff": {
+    "diff": {
       "name": "difference",
       "week": "",
       "day": ""
