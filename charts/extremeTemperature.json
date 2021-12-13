@@ -14,7 +14,7 @@
 	},
 	"decimals": 2,
 	"series": {
-		"0": {
+		"extreme-high": {
 			"className": "series-temp-high-extreme",
 			"preset": "extreme",
 			"group": "0", 
@@ -32,7 +32,7 @@
 			"colour": "[example]",
 			"type": "column" 
 		},
-		"1": {
+		"extreme-low": {
 			"className": "series-temp-low-extreme",
 			"preset": "extreme",
 			"group": "2", 
