@@ -2,11 +2,18 @@
 	"unitType": "day",
 	"groups": {
 		"2": {
+			"enabled": true,
 			"prime": true,
-			"enabled": true
+			"tooltip": {
+				"type": "valueDate"
+			}
 		},
-		"4": {
-			"enabled": true
+		"1": {
+			"enabled": true,
+			"tooltip": {
+				"type": "valueDate"
+			}
+
 		}
 	}
 }

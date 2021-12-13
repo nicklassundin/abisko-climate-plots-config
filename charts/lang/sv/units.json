@@ -8,9 +8,5 @@
     "plural": "veckor",
     "singular": "vecka",
     "interval": "veckovis"
-  },
-  "extreme": {
-    "low": "",
-    "high": ""
   }
 }

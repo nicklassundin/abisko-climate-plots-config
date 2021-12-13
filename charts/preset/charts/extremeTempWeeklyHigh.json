@@ -9,14 +9,14 @@
 		"meta": {
 			"smhi": {
 				"data": "SMHI-Weather",
-				"config": "temperature",
-				"lang": "annualTemperature",
+				"config": "extremeTemperature",
+				"lang": "extremeTemperatureHigh",
 				"set": "slideExtremeWeek"
 			},
 			"abisko": {
 				"data": "ANS",
-				"config": "temperature",
-				"lang": "annualTemperature",
+				"config": "extremeTemperature",
+				"lang": "extremeTemperatureHigh",
 				"set": "slideExtremeWeek"
 			}
 		}

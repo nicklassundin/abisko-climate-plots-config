@@ -67,7 +67,7 @@ dirs[`default`].forEach(fileName => {
 	fs.writeFileSync(`./charts/lang/default/${fileName}`, newfile);
 
 	dir.filter(each => each != `default`).forEach((lang) => {
-		var tmp = require(`./${lang}/${fileName}`);
+		let tmp = (fs.existsSync(`${__dirname}/${lang}/${fileName}`) ? require(`./${lang}/${fileName}`) : {})
 		tmp = reCompare(tmp, file);
 		var newTmp = JSON.stringify(tmp, null, 2);
 		fs.writeFileSync(`./charts/lang/${lang}/${fileName}`, newTmp);
