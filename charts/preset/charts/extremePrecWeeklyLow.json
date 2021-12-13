@@ -9,13 +9,13 @@
 		"meta": {
 			"smhi": {
 				"data": "SMHI-Hydrology",
-				"config": "extrmePrecipitation",
+				"config": "extremePrecipitation",
 				"lang": "extremePrecipitation",
 				"set":"slideExtremeWeekLow"
 			},
 			"abisko": {
 				"data": "ANS",
-				"config": "extrmePrecipitation",
+				"config": "extremePrecipitation",
 				"lang": "extremePrecipitation",
 				"set":"slideExtremeWeekLow"
 			}
