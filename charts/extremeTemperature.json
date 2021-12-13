@@ -1,0 +1,46 @@
+{
+	"type": "column",
+	"polar": false,
+	"groups": {
+		"0": {
+			"baseline": false
+		},
+		"1": {
+			"baseline": true
+		},
+		"2": {
+			"baseline": true
+		}
+	},
+	"decimals": 2,
+	"series": {
+		"0": {
+			"className": "series-temp-high-extreme",
+			"preset": "extreme-high",
+			"group": "0", 
+			"visible": true,
+			"colour": "#0000ff", 
+			"type": "bar",
+			"decimals": 0,
+			"keys": ["y", "color"]
+		},
+		"extreme-diff": {
+			"className": "series-diff",
+			"preset": "diff",
+			"group": "1",
+			"visible": true,
+			"colour": "[example]",
+			"type": "column" 
+		},
+		"1": {
+			"className": "series-temp-low-extreme",
+			"preset": "extreme-low",
+			"group": "2", 
+			"visible": true,
+			"colour": "#0000ff", 
+			"type": "bar",
+			"decimals": 0,
+			"keys": ["y", "color"]
+		}
+	}
+}

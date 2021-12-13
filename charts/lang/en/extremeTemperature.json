@@ -1,0 +1,64 @@
+{
+  "valueSuffix": "",
+  "groups": {
+    "0": {
+      "title": "Warmest [unit] of the year",
+      "subTitle": "[stationName]",
+      "caption": "Average temperature of warmest [unit] of the year.",
+      "yAxis": {
+        "left": "Average temperature of warmest [unit] of the year [°C]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Weather"
+    },
+    "1": {
+      "title": "Temperature Difference From Baseline",
+      "subTitle": "[stationName]",
+      "caption": "Difference between the yearly extreme average daily temperature  and the average extreme daily temperature for the baseline period, typically [baselineLower] to [baselineUpper].",
+      "yAxis": {
+        "left": "Temperature [°C]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Climate"
+    },
+    "2": {
+      "title": "Coldest [unit] of the year",
+      "subTitle": "[stationName]",
+      "caption": "Average temperature of coldest [unit] of the year.",
+      "yAxis": {
+        "left": "Average temperature of coldest [unit] of the year [°C]",
+        "right": "[X-AXIS]"
+      },
+      "xAxis": {
+        "bott": "Year",
+        "top": "[Y-AXIS]"
+      },
+      "legend": "Weather"
+    }
+  },
+  "series": {
+    "extreme-high": {
+      "name": "Average warmest maximum [interval] temperature",
+      "week": "weekly",
+      "day": "daily"
+    },
+    "extreme-low": {
+      "name": "Average coldest minimum [interval] temperature",
+      "week": "weekly",
+      "day": "daily"
+    },
+    "extreme-diff": {
+      "name": "difference",
+      "week": "",
+      "day": ""
+    }
+  }
+}
