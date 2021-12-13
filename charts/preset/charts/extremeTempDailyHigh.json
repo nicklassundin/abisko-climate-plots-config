@@ -10,13 +10,13 @@
 			"smhi": {
 				"data": "SMHI-Weather",
 				"config": "extremeTemperature",
-				"lang": "extremeTemperatureHigh",
+				"lang": "extremeTemperature",
 				"set": "slideExtremeDay"
 			},
 			"abisko": {
 				"data": "ANS",
 				"config": "extremeTemperature",
-				"lang": "extremeTemperatureHigh",
+				"lang": "extremeTemperature",
 				"set": "slideExtremeDay"
 			}
 		}
