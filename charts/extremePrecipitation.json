@@ -13,8 +13,8 @@
 	},
 	"decimals": 2,
 	"series": {
-		"0": {
-			"className": "series-prec-hih-extreme",
+		"extreme-high": {
+			"className": "series-prec-high-extreme",
 			"preset": "extreme",
 			"group": 0,
 			"visible": true,
@@ -31,7 +31,7 @@
 			"decimals": 0,
 			"keys": ["y", "color"]
 		},
-		"1": {
+		"extreme-low": {
 			"className": "series-temp-low-extreme",
 			"preset": "extreme",
 			"group": "2", 
