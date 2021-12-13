@@ -15,7 +15,7 @@
 	"series": {
 		"0": {
 			"className": "series-prec-hih-extreme",
-			"preset": "extreme-high",
+			"preset": "extreme",
 			"group": 0,
 			"visible": true,
 			"colour": "#1000FF",
@@ -33,7 +33,7 @@
 		},
 		"1": {
 			"className": "series-temp-low-extreme",
-			"preset": "extreme-low",
+			"preset": "extreme",
 			"group": "2", 
 			"visible": true,
 			"colour": "#0000ff", 
