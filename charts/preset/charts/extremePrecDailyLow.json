@@ -2,8 +2,8 @@
 	"id": "dailyExtremePrecipitation",
 	"type": "[stationType]",
 	"tag": {
-		"render": ["precipitation","weeklyExtreme"],
-		"data": ["precipitation","weeklyExtremeLow"]
+		"render": ["precipitation","dailyExtreme"],
+		"data": ["precipitation","dailyExtremeLow"]
 	},
 	"config": {
 		"meta": {
