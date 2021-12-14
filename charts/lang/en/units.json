@@ -8,5 +8,10 @@
     "plural": "weeks",
     "singular": "week",
     "interval": "weekly"
+  },
+  "month": {
+    "plural": "months",
+    "singular": "month",
+    "interval": "monthly"
   }
 }

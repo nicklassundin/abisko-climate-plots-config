@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["precipitation","monthlyExtreme"],
-		"data": ["precipitation","monthsExtremeHigh"]
+		"data": ["precipitation","monthlyExtremeHigh"]
 	},
 	"config": {
 		"meta": {

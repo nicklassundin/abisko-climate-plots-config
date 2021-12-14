@@ -8,5 +8,10 @@
     "plural": "veckor",
     "singular": "vecka",
     "interval": "veckovis"
+  },
+  "month": {
+    "plural": "",
+    "singular": "",
+    "interval": ""
   }
 }
