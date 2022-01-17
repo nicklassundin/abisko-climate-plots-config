@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "snowDepthPeriod",
-				"lang": "snowDepthPeriod",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "snowDepthPeriod",
+			"lang": "snowDepthPeriod",
+			"set": "weather"
 		}
 	},
 	"months": false

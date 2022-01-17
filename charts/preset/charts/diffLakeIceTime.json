@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceTime",
-				"lang": "iceTime",
-				"data": "ANS",
-				"set": "climate"
-			}
+			"config": "iceTime",
+			"lang": "iceTime",
+			"set": "climate"
 		}
 	},
 	"months": false

@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"glob": {
-				"config": "co2",
-				"lang": "co2_weekly",
-				"data": "Scipps-CO2",
-				"set": "weather"
-			}
+			"config": "co2",
+			"lang": "co2_weekly",
+			"set": "weather"
 		}
 	},
 	"months": false

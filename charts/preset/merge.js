@@ -19,14 +19,16 @@ exports.preset = new Promise((resolve, reject) => {
       .map((file) => {
         try {
           var f = {};
+	console.log(file)
           const full = require(`./charts/${file}`);
-          const def = full.config.meta;
-          Object.keys(def).forEach((station) => {
+          const station = full.config.meta;
+		// console.log(station)
+		  // fsdfsd
             const temp = {};
             $.extend(true, temp, full);
-            temp.type = temp.type.replace('[stationType]', station);
-            if (!f[station]) f[station] = {};
-            const define = temp.config.meta[station];
+            // temp.type = temp.type.replace('[stationType]', station);
+            // if (!f[station]) f[station] = {};
+            const define = temp.config.meta;
             const files = {};
             files.ref = temp;
             struct[define.config] = require(`../${define.config}.json`);
@@ -40,21 +42,28 @@ exports.preset = new Promise((resolve, reject) => {
               files.subset = require(`../${define.subset}.json`).subset;
             }
             files.set = require(`../${define.set}.json`);
+	// console.log(define)
             ['en', 'sv'].forEach((lang) => {
-              files[lang] = require(`../lang/${lang}/${define.lang}.json`);
+		    try{
 
-              const dref = files.ref.config.meta[station].data;
+              files[lang] = require(`../lang/${lang}/${define.lang}.json`);
+              // const dref = files.ref.config.meta[station].data;
 
               files[lang].dataSource = {
-                meta: require(`../lang/${lang}/dataSource.json`)[dref],
+                meta: require(`../lang/${lang}/dataSource.json`),
+                // meta: require(`../lang/${lang}/dataSource.json`)[dref],
               };
 
               files[lang].units = require(`../lang/${lang}/units`);
               files[lang].time = require(`../lang/${lang}/time.json`);
               files[lang].menu = language[lang];
+		    }catch(ERROR){
+			    console.log("define", define)
+			    throw ERROR
+		    }
             });
-            f[station][file.replace('.json', '')] = files;
-          });
+            f[file.replace('.json', '')] = files;
+          // });
           return f;
         } catch (ERROR) {
           console.log(ERROR);

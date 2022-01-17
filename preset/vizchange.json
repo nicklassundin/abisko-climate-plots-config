@@ -153,7 +153,7 @@
 			},
 			"context": false,
 			"station": "glob",
-			"plot": "temperature_zonal_slide"
+			"plot": "temperature_glob"
 		}
 	},
 	"viz-annual-temp-nhem": {
@@ -163,7 +163,7 @@
 			},
 			"context": false,
 			"station": "nhem",
-			"plot": "temperature_zonal_slide"
+			"plot": "temperature_nhem"
 		}
 	},
 	"viz-annual-temp-64n-90n": {
@@ -173,7 +173,7 @@
 			},
 			"context": false,
 			"station": "64n-90n",
-			"plot": "temperature_zonal_slide"
+			"plot": "temperature_64n-90n"
 		}
 	},
 	"viz-annual-temp": {

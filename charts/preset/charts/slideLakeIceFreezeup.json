@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceFreeze",
-				"lang": "iceFreeze",
-				"data": "ANS",
-				"set": "slide"
-			}
+			"config": "iceFreeze",
+			"lang": "iceFreeze",
+			"set": "slide"
 		}
 	},
 	"months": false

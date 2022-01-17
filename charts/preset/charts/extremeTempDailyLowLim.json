@@ -7,18 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Weather",
-				"config": "temperature",
-				"lang": "annualTemperature",
-				"set": "slideExtremeDayLowLim"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "temperature",
-				"lang": "annualTemperature",
-				"set": "slideExtremeDayLowLim"
-			}
+			"config": "temperature",
+			"lang": "annualTemperature",
+			"set": "slideExtremeDayLowLim"
 		}
 	},
 	"months": false

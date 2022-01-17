@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"nhem": {
-				"config": "temperature",
-				"lang": "nhem_Temperature",
-				"data": "NASA-GISS-TEMP",
-				"set": "climate"
-			}
+			"config": "temperature",
+			"set": "climate",
+			"lang": "nhem_Temperature"
 		}
 	},
 	"months": false
