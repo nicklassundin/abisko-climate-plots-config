@@ -7,8 +7,8 @@
 	},
 	"config": {
 		"meta": {
-			"lang": "autumnTemperature",
-			"data": "SMHI-Weather",
+			"lang": "annualTemperature",
+			"config": "temperature",
 			"set": "select"
 		}
 	},

@@ -30,6 +30,7 @@ exports.preset = new Promise((resolve, reject) => {
             const define = temp.config.meta;
             const files = {};
             files.ref = temp;
+		// console.log(file)
             struct[define.config] = require(`../${define.config}.json`);
             files.config = {};
             $.extend(true, files.config, struct[define.config]);
