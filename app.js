@@ -7,6 +7,7 @@ exports.genStaticFiles = function (DIR) {
 	const fileWrite = function (json, file) {
 		fs.exists(file, (exists) => {
 			if (exists) {
+				console.log(file)
 				fs.writeFile(file, JSON.stringify(json, null, 2), (ERROR) => {
 					if (ERROR) throw ERROR;
 				});
@@ -34,32 +35,21 @@ exports.genStaticFiles = function (DIR) {
 			const merge = require('./charts/preset/merge.js').preset;
 			merge.then((json) => {
 				fileWrite(json, `${DIR}/static/charts/merged.json`);
-				const stations = {};
+				const plotTypes = {};
 				json.forEach((entry) => {
-					Object.keys(entry).forEach((station) => {
-						if (!stations[station]) stations[station] = [];
-						Object.keys(entry[station]).forEach((key) => {
-							// var type = entry[station][key].ref.type
-							const type = station;
-							const dir = `${DIR}/static/charts/stationType/${type}`;
-							if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-							// console.log('-----')
-							// console.log(station)
-							// console.log(entry[station][key].config.parse)
-							// console.log('-----')
-							if (entry[station][key].ref.type === 'zonal') {
-								// TODO temporarly special case
-								entry[station][key].ref.tag.data = [station];
-								entry[station][key].ref.tag.render = [station];
-							}
+					Object.keys(entry).forEach((plot) => {
+						let dirST = `${DIR}/static/charts/stationType`;
+						const dir = `${DIR}/static/charts/stationType/${plot}`;
+						if (!fs.existsSync(dirST)) fs.mkdirSync(dirST);
+						if (entry[plot].ref.type === 'zonal') {
+							entry[plot].ref.tag.data = ['stationName'];
+							entry[key].ref.tag.render = ['stationName'];
+						}
+						fileWrite(entry[plot], `${DIR}/static/charts/stationType/${plot}.json`);
 
-							fileWrite(entry[station][key], `${DIR}/static/charts/stationType/${type}/${key}.json`);
-
-							stations[station].push(key);
-						});
 					});
 				});
-				fileWrite(stations, `${DIR}/static/charts/stations.json`);
+				// fileWrite(stations, `${DIR}/static/charts/stations.json`);
 			});
 			return true;
 		} catch (error) {

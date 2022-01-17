@@ -3,25 +3,37 @@ const fs = require('fs');
 
 describe('test build', () => {
 	before(function(done) {
-		if(!fs.existsSync('./test/static')) fs.mkdir('./test/static', (err) => {
-			if (err) {
-				throw err;
-			}
-			if(!fs.existsSync('./test/static/charts')){
+		var dir = './test/static'
+		// if(fs.existsSync(dir)) fs.rmdir(dir, { recursive: true }, (err) => {
+		// if (err) {
+		// throw err;
+		// }
 
-				fs.mkdir('./test/static/charts', (err) => {
-					if (err) {
-						throw err;
-					}else{
-						done()
-					}
-					console.log("Directory is created.");
-				});
-			}else{
-				done()
-			}
-			console.log("Directory is created.");
-		});
+		// console.log(`${dir} is deleted!`);
+		// });
+		if(!fs.existsSync('./test/static')){
+			fs.mkdir('./test/static', (err) => {
+				if (err) {
+					throw err;
+				}
+				if(!fs.existsSync('./test/static/charts')){
+
+					fs.mkdir('./test/static/charts', (err) => {
+						if (err) {
+							throw err;
+						}else{
+							done()
+						}
+						console.log("Directory is created.");
+					});
+				}else{
+					done()
+				}
+				console.log("Directory is created.");
+			});
+		}else{
+			done()
+		}
 	})
 	describe('testing', function() {
 
