@@ -37,14 +37,14 @@ describe('test build', () => {
 			});
 		});
 	})
-	after(function() {
-		var dir = './test/static'
-		fs.rmdir(dir, { recursive: true }, (err) => {
-			if (err) {
-				throw err;
-			}
+	// after(function() {
+	// 	var dir = './test/static'
+	// 	fs.rmdir(dir, { recursive: true }, (err) => {
+	// 		if (err) {
+	// 			throw err;
+	// 		}
 
-			console.log(`${dir} is deleted!`);
-		});
-	});
+	// 		console.log(`${dir} is deleted!`);
+	// 	});
+	// });
 });
