@@ -19,7 +19,6 @@ exports.preset = new Promise((resolve, reject) => {
       .map((file) => {
         try {
           var f = {};
-	console.log(file)
           const full = require(`./charts/${file}`);
           const station = full.config.meta;
 		// console.log(station)
