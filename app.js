@@ -43,7 +43,7 @@ exports.genStaticFiles = function (DIR) {
 						if (!fs.existsSync(dirST)) fs.mkdirSync(dirST);
 						if (entry[plot].ref.type === 'zonal') {
 							entry[plot].ref.tag.data = ['stationName'];
-							entry[key].ref.tag.render = ['stationName'];
+							entry[plot].ref.tag.render = ['stationName'];
 						}
 						fileWrite(entry[plot], `${DIR}/static/charts/stationType/${plot}.json`);
 
