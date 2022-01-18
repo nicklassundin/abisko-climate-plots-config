@@ -2,12 +2,18 @@
 const hbs = require('hbs');
 const custom = require('./preset').preset;
 exports.custom = custom;
+let time = {
+	en: require('./charts/lang/en/time.json'),
+	sv: require('./charts/lang/sv/time.json'),
+};
 exports.genStaticFiles = function (DIR) {
 	const fs = require('fs');
+
+
 	const fileWrite = function (json, file) {
 		fs.exists(file, (exists) => {
 			if (exists) {
-				console.log(file)
+				// console.log(file)
 				fs.writeFile(file, JSON.stringify(json, null, 2), (ERROR) => {
 					if (ERROR) throw ERROR;
 				});
@@ -19,6 +25,16 @@ exports.genStaticFiles = function (DIR) {
 			}
 		});
 	};
+
+	let path = `${DIR}/static/lang`;
+	fs.exists(path, (exists) => {
+		if(!exists){
+				
+			fs.mkdirSync(path)
+		}
+		fileWrite(time, `${path}/time.json`);	
+	})
+
 	return new Promise((res, rej) => {
 		try {
 			hbs.registerPartials(`${DIR}/views/partials`, (err) => {
@@ -56,8 +72,4 @@ exports.genStaticFiles = function (DIR) {
 			throw error;
 		}
 	});
-};
-exports.time = {
-	en: require('./charts/lang/en/time.json'),
-	sv: require('./charts/lang/sv/time.json'),
 };
