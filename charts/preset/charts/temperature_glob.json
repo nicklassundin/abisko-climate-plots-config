@@ -3,7 +3,7 @@
 	"type": "zonal",
 	"tag": {
 		"render": "glob",
-		"data": "glob"
+		"data": "temperature"
 	},
 	"config": {
 		"meta": {
