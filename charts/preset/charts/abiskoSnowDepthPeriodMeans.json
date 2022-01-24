@@ -3,7 +3,7 @@
 	"type": "abiskoSnowDepth",
 	"tag": {
 		"render": "periodMeans",
-		"data": "periodMeans"
+		"data": ["snowdepth_single", "30period"]
 	},
 	"config": {
 		"meta": {

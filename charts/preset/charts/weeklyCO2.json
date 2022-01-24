@@ -3,7 +3,7 @@
 	"type": "weeklyCO2",
 	"tag": {
 		"render": "weekly",
-		"data": "weekly"
+		"data": ["co2_weekly", "all"]
 	},
 	"config": {
 		"meta": {
