@@ -3,7 +3,7 @@
 	"type": "abiskoSnowDepth",
 	"tag": {
 		"render": "decadeMeans",
-		"data": ["snowdepth_single", "decades"]
+		"data": ["snowdepth_single", "splitDecades"]
 	},
 	"config": {
 		"meta": {
