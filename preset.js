@@ -2,6 +2,7 @@ const fs = require('fs');
 const merge = require('merge');
 const normalizedPath = require('path').join(__dirname, 'preset');
 
+
 exports.preset = new Promise((resolve, reject) => {
   fs.readdir(normalizedPath, (err, files) => {
     Promise.all(files.filter((name) => name.includes('.json'))
