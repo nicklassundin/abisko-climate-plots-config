@@ -20,7 +20,7 @@
   },
   "valueSuffix": "m",
   "series": {
-    "avg": {
+    "calm": {
       "name": "Average of all stations"
     }
   }
