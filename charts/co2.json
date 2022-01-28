@@ -27,6 +27,7 @@
 			"className": "series-co2",
 			"preset": "co2",
 			"group": 0,
+			"marker": {"radius": 0.5},
 			"visible": true,
 			"colour": "#5555bb",
 			"type": "area"
