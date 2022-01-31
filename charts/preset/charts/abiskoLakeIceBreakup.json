@@ -3,7 +3,7 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "breakupDOY",
-		"data": ["DOY","breakup"]
+		"data": ["breakup","yrly"]
 	},
 	"config": {
 		"meta": {
