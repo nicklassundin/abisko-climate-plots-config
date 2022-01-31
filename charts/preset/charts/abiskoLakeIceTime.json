@@ -2,8 +2,8 @@
 	"id": "abiskoLakeIceTime",
 	"type": "tornetrask",
 	"tag": {
-		"render": "iceTime",
-		"data": "iceTime"
+		"render": ["iceTime"],
+		"data": ["iceTime"]
 	},
 	"config": {
 		"meta": {
