@@ -3,7 +3,7 @@
 	"type": "abiskoSnowDepth",
 	"tag": {
 		"render": ["snowDepth", "yrly"],
-		"data": ["snowDepth", "singleStake", "yrly"]
+		"data": ["snowDepth_single", "yrly"]
 	},
 	"config": {
 		"meta": {
