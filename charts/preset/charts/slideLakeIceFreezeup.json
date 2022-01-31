@@ -3,7 +3,7 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "freezeDOY",
-		"data": ["freezeup", "yrly"]
+		"data": ["freezeup", "yrlySplit"]
 	},
 	"config": {
 		"meta": {
