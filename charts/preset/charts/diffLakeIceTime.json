@@ -3,7 +3,7 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "difference",
-		"data": "iceTime"
+		"data": "icetime"
 	},
 	"config": {
 		"meta": {
