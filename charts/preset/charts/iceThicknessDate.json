@@ -3,7 +3,7 @@
 	"type": "iceThick",
 	"tag": {
 		"render": "date",
-		"data": ["lakeice", "yrly", "closest"]
+		"data": ["complete_ice_cover", "yrly", "closest"]
 	},
 	"config": {
 		"meta": {
