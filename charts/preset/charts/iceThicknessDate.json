@@ -3,7 +3,7 @@
 	"type": "iceThick",
 	"tag": {
 		"render": "date",
-		"data": "date"
+		"data": ["lakeice", "yrly", "closest"]
 	},
 	"config": {
 		"meta": {
