@@ -3,7 +3,7 @@
 	"type": "iceThick",
 	"tag": {
 		"render": ["yrly","max"],
-		"data": ["yrly"]
+		"data": ["lakeice", "yrly"]
 	},
 	"config": {
 		"meta": {
