@@ -19,6 +19,7 @@
 	"period": false,
 	"series": {
 		"avg": {
+			"className": "series-snow-avg",
 			"preset": "avg",
 			"group": 0,
 			"visible": true,
@@ -26,6 +27,7 @@
 			"colour": "#1000FB"
 		},
 		"diff": {
+			"className": "series-diff",
 			"preset": "diff",
 			"group": 1,
 			"visible": true,
