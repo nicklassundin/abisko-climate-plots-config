@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["growingSeason", "last"],
-		"data": ["temperature", "yrlySplit"]
+		"data": ["temperature", "yrlySplit", "last"]
 	},
 	"config": {
 		"meta": {
