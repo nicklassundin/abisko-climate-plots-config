@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["growingSeason","slide","days"],
-		"data": ["growingSeason", "days"]
+		"data": ["yrlyFull", "growingSeason"]
 	},
 	"config": {
 		"meta": {
