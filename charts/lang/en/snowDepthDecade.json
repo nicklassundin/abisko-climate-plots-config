@@ -11,7 +11,7 @@
       },
       "xAxis": {
         "categories": [
-	  "Aug",
+          "Aug",
           "Sep",
           "Oct",
           "Nov",
@@ -22,7 +22,7 @@
           "Apr",
           "May",
           "Jun",
-	  "Jul"
+          "Jul"
         ],
         "bott": "Month",
         "top": "[Y-AXIS]"

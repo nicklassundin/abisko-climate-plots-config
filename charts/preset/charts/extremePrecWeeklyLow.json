@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["precipitation","weeklyExtreme"],
-		"data": ["precipitation", "weeks", "min"]
+		"data": ["precipitation", "weekly", "minAvg"]
 	},
 	"config": {
 		"meta": {
