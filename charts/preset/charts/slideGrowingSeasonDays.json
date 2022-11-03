@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["growingSeason","slide","days"],
-		"data": ["yrlyFull", "growingSeason"]
+		"data": ["temperature","yrlyFull", "growingSeason"]
 	},
 	"config": {
 		"meta": {
