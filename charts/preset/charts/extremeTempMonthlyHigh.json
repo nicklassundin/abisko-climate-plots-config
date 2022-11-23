@@ -3,7 +3,7 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["temperatures","monthlyExtreme"],
-		"data": ["temperatures","months", "max"]
+		"data": ["temperatures","months", "maxAvg"]
 	},
 	"config": {
 		"meta": {
