@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen i datumet för islossning på sjön",
       "subTitle": "Torneträsk",
-      "caption": "Skillnad i islossning från baslinjen, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad i islossning från baslinjen ([baselineValue]), vanligtvis 1961 till 1990.",
       "yAxis": {
         "left": "Islossning [day of year]",
         "right": "[X-AXIS]"

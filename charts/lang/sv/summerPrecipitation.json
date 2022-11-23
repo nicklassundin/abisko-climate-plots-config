@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen för sommarens genomsnittliga nederbörd",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan sommarens (juni till augusti) säsongsgenomsnitt och genomsnittet för basperioden, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan sommarens (juni till augusti) säsongsgenomsnitt och genomsnittet för basperioden ([baselineValue]), vanligtvis 1961 till 1990.",
       "yAxis": {
         "left": "Genomsnittlig nederbörd[mm]",
         "right": "[X-AXIS]"

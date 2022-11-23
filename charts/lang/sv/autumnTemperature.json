@@ -18,7 +18,7 @@
     "1": {
       "title": "Höstens genomsnittliga temperaturskillnad från baslinjen",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan höstens (september-november) säsongsgenomsnitt och genomsnittet för basperioden, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan höstens (september-november) säsongsgenomsnitt och genomsnittet för basperioden ([baselineValue]), vanligtvis 1961 till 1990.",
       "legend": "Klimat",
       "xAxis": {
         "bott": "År",

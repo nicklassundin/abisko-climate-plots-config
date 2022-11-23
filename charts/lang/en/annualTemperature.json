@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperature Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the yearly average temperature and the average temperature for the baseline period, typically [baselineLower] to [baselineUpper].",
+      "caption": "Difference between the yearly average temperature and the average temperature ([baselineValue]) for the baseline period, typically [baselineLower] to [baselineUpper].",
       "yAxis": {
         "left": "Temperature [°C]",
         "right": "[X-AXIS]"

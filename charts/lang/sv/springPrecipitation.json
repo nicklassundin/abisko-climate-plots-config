@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen för vårens genomsnittliga nederbörd",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan vårens (mars-maj) säsongsgenomsnitt och genomsnittet för baslinjeperioden, [baseline].",
+      "caption": "Skillnad mellan vårens (mars-maj) säsongsgenomsnitt och genomsnittet för baslinjeperioden ([baselineValue]), [baseline].",
       "yAxis": {
         "left": "Genomsnittlig nederbörd [mm]",
         "right": "[X-AXIS]"

@@ -26,7 +26,7 @@
         "bott": "År",
         "top": "[Y-AXIS]"
       },
-      "caption": "Skillnad mellan den årliga genomsnittliga nederbörden och den genomsnittliga nederbörden för baslinjeperioden, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan den årliga genomsnittliga nederbörden och den genomsnittliga nederbörden för baslinjeperioden ([baselineValue]), vanligtvis 1961 till 1990.",
       "legend": "Klimat"
     },
     "2": {

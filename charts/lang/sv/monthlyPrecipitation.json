@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad i nederbörd från baslinjen",
       "subTitle": "[stationName]",
-      "caption": "Genomsnittlig nederbörd per månad för [month].",
+      "caption": "Genomsnittlig nederbörd ([baselineValue]) per månad för [month].",
       "yAxis": {
         "left": "Genomsnittlig nederbörd [mm]",
         "right": "[X-AXIS]"

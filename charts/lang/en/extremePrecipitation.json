@@ -2,7 +2,7 @@
   "valueSuffix": "",
   "groups": {
     "0": {
-      "title": "[REMOVE] Wettest [unit] of the year",
+      "title": "Wettest [unit] of the year",
       "subTitle": "[stationName]",
       "yAxis": {
         "left": "Total precipitation [mm]",
@@ -18,9 +18,9 @@
     "1": {
       "title": "Precipitation Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the yearly extreme [interval] precipitation and the average extreme [interval] precipitation for the baseline period, typically [baselineLower] to [baselineUpper].",
+      "caption": "Difference between the yearly extreme [interval] precipitation and the average extreme [interval] precipitation for the baseline period ([baselineValue]), typically [baselineLower] to [baselineUpper].",
       "yAxis": {
-        "left": "Temperature [°C]",
+        "left": "Precipitation [mm]",
         "right": "[X-AXIS]"
       },
       "xAxis": {

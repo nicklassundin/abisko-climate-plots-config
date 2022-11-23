@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen för vinterns genomsnittliga nederbörd",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan vinterns (december till februari) säsongsgenomsnitt och genomsnittet för basperioden [baseline].",
+      "caption": "Skillnad mellan vinterns (december till februari) säsongsgenomsnitt och genomsnittet ([baselineValue]) för basperioden [baseline].",
       "yAxis": {
         "left": "Genomsnittlig nederbörd [mm]",
         "right": "[X-AXIS]"

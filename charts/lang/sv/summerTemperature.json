@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen för sommarens genomsnittliga temperatur",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan sommarens (juni till augusti) säsongsgenomsnitt och genomsnittet för baslinjeperioden, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan sommarens (juni till augusti) säsongsgenomsnitt och genomsnittet för baslinjeperioden ([baselineValue]), vanligtvis 1961 till 1990.",
       "legend": "Klimat",
       "xAxis": {
         "bott": "År",

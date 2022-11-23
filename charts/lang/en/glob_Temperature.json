@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperature Difference From Baseline",
       "subTitle": "Global",
-      "caption": "Difference between the yearly average temperature and the average temperature for the baseline period, typically 1961 to 1990, for the globe.",
+      "caption": "Difference between the yearly average temperature and the average temperature for the baseline period ([baselineValue]), typically 1961 to 1990, for the globe.",
       "yAxis": {
         "left": "Temperature [°C]",
         "right": "[X-AXIS]"

@@ -2,46 +2,46 @@
   "valueSuffix": "",
   "groups": {
     "0": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
+      "title": "Blöttaste [unit] på året",
+      "subTitle": "[stationName]",
       "yAxis": {
-        "left": "",
-        "right": ""
+        "left": "Total Nederbörd [mm]",
+        "right": "[X-Axis]"
       },
       "xAxis": {
-        "bott": "",
-        "top": ""
+        "bott": "År",
+        "top": "[Y-AXIS]"
       },
-      "legend": ""
+      "caption": "Blöttaste [unit] dagen på året (total nederbörd i mm).",
+      "legend": "Väder"
     },
     "1": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
+      "title": "Nederbörd Differans Från Baselinjen",
+      "subTitle": "[stationName]",
+      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] nederbörden ([baselineValue]) och den genomsnittliga extrema [interval] nederbörden för baslinjeperioden, vanligtvis 1961 till 1990.",
       "yAxis": {
-        "left": "",
-        "right": ""
+        "left": "Nederbörd [mm]",
+        "right": "[X-AXIS]"
       },
       "xAxis": {
-        "bott": "",
-        "top": ""
+        "bott": "År",
+        "top": "[Y-AXIS]"
       },
-      "legend": ""
+      "legend": "Klimat"
     },
     "2": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
+      "title": "Torraste [unit] på året",
+      "subTitle": "[stationName]",
       "yAxis": {
-        "left": "",
-        "right": ""
+        "left": "Total nederbörd [mm]",
+        "right": "[X-Axis]"
       },
       "xAxis": {
-        "bott": "",
-        "top": ""
+        "bott": "År",
+        "top": "[Y-AXIS]"
       },
-      "legend": ""
+      "caption": "Torraste [unit] på året (total nederbörd i mm).",
+      "legend": "Väder"
     }
   },
   "series": {

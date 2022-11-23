@@ -18,7 +18,7 @@
     "1": {
       "title": "Lake Ice Time Difference (from Baseline)",
       "subTitle": "Torneträsk",
-      "caption": "Number of days the lake is covered completely by ice  difference from baseline period.",
+      "caption": "Number of days the lake is covered completely by ice  difference from baseline period ([baselineValue]).",
       "yAxis": {
         "left": "Difference Ice time [units]",
         "right": "[X-AXIS]"
