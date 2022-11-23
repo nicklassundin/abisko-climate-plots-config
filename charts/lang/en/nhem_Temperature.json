@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperature Difference From Baseline",
       "subTitle": "Northern Hemisphere",
-      "caption": "Difference between the yearly average temperature and the average temperature for the baseline period ([baselineValue]), typically [baseline], for the Northern Hemisphere.",
+      "caption": "Difference between the yearly average temperature and the average temperature for the baseline period, typically 1961 to 1990, for the Northern Hemisphere.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [°C].",
       "yAxis": {
         "left": "Temperature [°C]",
         "right": "[X-AXIS]"

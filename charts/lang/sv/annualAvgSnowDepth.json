@@ -30,7 +30,7 @@
     "1": {
       "title": "[stationName] Årlig genomsnittlig snödjupskillnad från baslinjen",
       "subTitle": "",
-      "caption": "Skillnad mellan årligt snödjup i centimeter och genomsnittet för baslinjeperioden ([baselineValue]), vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan årligt snödjup i centimeter och genomsnittet för baslinjeperioden ([baselineValue]), vanligtvis 1961 till 1990. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [cm].",
       "yAxis": {
         "left": "Genomsnittligt snödjup [cm]",
         "right": "[X-AXIS]"

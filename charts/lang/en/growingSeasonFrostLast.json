@@ -19,7 +19,7 @@
       "title": "Last Spring Frost - Difference from Baseline",
       "subTitle": "[stationName]",
       "legend": "Climate",
-      "caption": "The difference between the date of the last spring or summer frost and the average for the baseline period ([baselineValue]), typically 1961 to 1990. This is calculated from temperature data.",
+      "caption": "The difference between the date of the last spring or summer frost and the average for the baseline period ([baselineValue]), typically 1961 to 1990. This is calculated from temperature data.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] days.",
       "xAxis": {
         "bott": "Year",
         "top": "[Y-AXIS]"

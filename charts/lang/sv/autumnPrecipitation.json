@@ -18,7 +18,7 @@
     "1": {
       "title": "Höstens genomsnittliga skillnad i nederbörd från baslinjen",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan höstens (september-november) säsongsgenomsnitt ([baselineValue]) och genomsnittet för baslinjeperioden, [baseline].",
+      "caption": "Skillnad mellan höstens (september-november) säsongsgenomsnitt och genomsnittet för baslinjeperioden, [baseline]. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [mm].",
       "yAxis": {
         "left": "Genomsnittlig nederbörd [mm]",
         "right": "[X-AXIS]"

@@ -21,7 +21,7 @@
     "1": {
       "title": "[stationName] Skillnad i isens tjocklek (efter datum)",
       "subTitle": "",
-      "caption": "Isens tjocklek för ett visst datum över alla år (om det inte mäts på ett valt datum presenteras data från närmaste tidigare mätning).",
+      "caption": "Isens tjocklek för ett visst datum över alla år (om det inte mäts på ett valt datum presenteras data från närmaste tidigare mätning).\n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [cm].",
       "select": {
         "text": "Välj datum"
       },

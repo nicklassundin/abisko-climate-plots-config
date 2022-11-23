@@ -18,7 +18,7 @@
     "1": {
       "title": "Nederbörd Differans Från Baselinjen",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] nederbörden ([baselineValue]) och den genomsnittliga extrema [interval] nederbörden för baslinjeperioden, vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] nederbörden och den genomsnittliga extrema [interval] nederbörden för baslinjeperioden, vanligtvis 1961 till 1990. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [mm].",
       "yAxis": {
         "left": "Nederbörd [mm]",
         "right": "[X-AXIS]"

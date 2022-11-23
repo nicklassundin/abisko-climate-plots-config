@@ -19,7 +19,7 @@
       "title": "Skillnad i växtsäsongens längd [units] från baslinjen",
       "subTitle": "[stationName]",
       "legend": "Klimat",
-      "caption": "Skillnad mellan det maximala antalet [units] över noll för året (den frostfria säsongen) och genomsnittet för baslinjeperioden ([baselineValue]), [baseline]. Detta beräknas utifrån temperaturdata.",
+      "caption": "Skillnad mellan det maximala antalet [units] över noll för året (den frostfria säsongen) och genomsnittet för baslinjeperioden, [baseline]. Detta beräknas utifrån temperaturdata. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [units].",
       "xAxis": {
         "bott": "År",
         "top": "[Y-AXIS]"

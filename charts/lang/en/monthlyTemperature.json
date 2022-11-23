@@ -18,7 +18,7 @@
     "1": {
       "title": "Average Temperature Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the average temperature for [month] and the average temperature for the baseline period ([baselineValue]), typically [baselineLower] to [baselineUpper].",
+      "caption": "Difference between the average temperature for [month] and the average temperature for the baseline period, typically 1961 to 1990. \n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [°C].",
       "legend": "Climate",
       "xAxis": {
         "bott": "Year",

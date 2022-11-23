@@ -19,7 +19,7 @@
       "title": "Höstens första frost - Skillnad från baslinjen",
       "subTitle": "[stationName]",
       "legend": "Klimat",
-      "caption": "Skillnaden mellan datumet för årets första höstfrost och genomsnittet för baslinjeperioden ([baselineValue]), vanligtvis 1961 till 1990. Detta beräknas utifrån temperaturdata.",
+      "caption": "Skillnaden mellan datumet för årets första höstfrost och genomsnittet för baslinjeperioden, vanligtvis 1961 till 1990. Detta beräknas utifrån temperaturdata.\n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] dagar.",
       "xAxis": {
         "bott": "År",
         "top": "[Y-AXIS]"

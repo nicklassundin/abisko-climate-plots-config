@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad från baslinjen i den genomsnittliga temperaturen",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan medeltemperaturen för [month] och medeltemperaturen för basperioden ([baselineValue]), vanligtvis 1961 till 1990.",
+      "caption": "Skillnad mellan medeltemperaturen för [month] och medeltemperaturen för basperioden, vanligtvis 1961 till 1990.\n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
       "legend": "Klimat",
       "xAxis": {
         "bott": "År",
