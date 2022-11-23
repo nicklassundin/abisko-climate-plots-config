@@ -21,22 +21,22 @@
 			"colour": "#1000FF",
 			"type": "column" 
 		},
+		"extreme-low": {
+			"className": "series-temp-low-extreme",
+			"preset": "extreme",
+			"group": "2",
+			"visible": true,
+			"colour": "#0000ff",
+			"type": "bar",
+			"decimals": 0,
+			"keys": ["y", "color"]
+		},
 		"extreme-diff": {
 			"className": "series-diff",
 			"preset": "diff",
 			"group": "1", 
 			"visible": true,
 			"colour": "#ff0000", 
-			"type": "bar",
-			"decimals": 0,
-			"keys": ["y", "color"]
-		},
-		"extreme-low": {
-			"className": "series-temp-low-extreme",
-			"preset": "extreme",
-			"group": "2", 
-			"visible": true,
-			"colour": "#0000ff", 
 			"type": "bar",
 			"decimals": 0,
 			"keys": ["y", "color"]
