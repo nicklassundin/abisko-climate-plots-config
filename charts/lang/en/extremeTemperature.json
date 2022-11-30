@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperature Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the yearly extreme average [interval] temperature  and the average extreme [interval] temperature for the baseline period, typically 1961 to 1990.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [°C].",
+      "caption": "Difference between the yearly extreme average [interval] temperature  and the average extreme [interval] temperature for the baseline period, baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [°C].",
       "yAxis": {
         "left": "Temperature [°C]",
         "right": "[X-AXIS]"

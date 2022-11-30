@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperatur Skillnad från Baselinjen",
       "subTitle": "[stationName]",
-      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] temperaturen och den genomsnittliga extrema [interval] temperaturen för baslinjeperioden, vanligtvis 1961 till 1990. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
+      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] temperaturen och den genomsnittliga extrema [interval] temperaturen för baslinjeperioden, baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
       "yAxis": {
         "left": "Temperatur [°C]",
         "right": "[X-AXIS]"
