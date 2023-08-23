@@ -5,10 +5,10 @@
 			"baseline": false
 		},
 		"1": {
-			"baseline": true
+			"baseline": false
 		},
 		"2": {
-			"baseline": false
+			"baseline": true
 		}
 	},
 	"decimals": 2,
@@ -24,7 +24,7 @@
 		"extreme-low": {
 			"className": "series-temp-low-extreme",
 			"preset": "extreme",
-			"group": "2",
+			"group": "1",
 			"visible": true,
 			"colour": "#0000ff",
 			"type": "bar",
@@ -34,7 +34,7 @@
 		"extreme-diff": {
 			"className": "series-diff",
 			"preset": "diff",
-			"group": "1", 
+			"group": "2",
 			"visible": true,
 			"colour": "#ff0000", 
 			"type": "bar",

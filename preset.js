@@ -18,7 +18,7 @@ exports.preset = new Promise((resolve, reject) => {
           }
           return json;
         } catch (ERROR) {
-          console.log(ERROR);
+          //console.log(ERROR);
           throw ERROR;
         }
       })).then((res) => {

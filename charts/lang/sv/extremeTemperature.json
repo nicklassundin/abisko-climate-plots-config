@@ -28,20 +28,6 @@
         "top": "[Y-AXIS]"
       },
       "legend": "Klimat"
-    },
-    "2": {
-      "title": "Kallaste [unit] på året",
-      "subTitle": "[stationName]",
-      "caption": "Genomsnittliga temperaturen av den kallaste [unit] på året.",
-      "yAxis": {
-        "left": "Genomsnittliga temperaturen av den kallaste [unit] på året. [°C]",
-        "right": "[X-AXIS]"
-      },
-      "xAxis": {
-        "bott": "År",
-        "top": "[Y-AXIS]"
-      },
-      "legend": "Väder"
     }
   },
   "series": {

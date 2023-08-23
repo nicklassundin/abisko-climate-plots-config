@@ -8,7 +8,7 @@
 			"ppm350": true,
 			"pointSelect": true,
 			"tooltip": {
-			
+				"type": "week"
 			},
 			"yAxis": {
 				"min": 300,

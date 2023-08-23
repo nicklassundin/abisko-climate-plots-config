@@ -13,7 +13,7 @@ exports.genStaticFiles = function (DIR) {
 	const fileWrite = function (json, file) {
 		fs.exists(file, (exists) => {
 			if (exists) {
-				// console.log(file)
+				// //console.log(file)
 				fs.writeFile(file, JSON.stringify(json, null, 2), (ERROR) => {
 					if (ERROR) throw ERROR;
 				});

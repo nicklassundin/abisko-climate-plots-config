@@ -21,7 +21,7 @@ exports.preset = new Promise((resolve, reject) => {
           var f = {};
           const full = require(`./charts/${file}`);
           const station = full.config.meta;
-		// console.log(station)
+		// //console.log(station)
 		  // fsdfsd
             const temp = {};
             $.extend(true, temp, full);
@@ -30,7 +30,7 @@ exports.preset = new Promise((resolve, reject) => {
             const define = temp.config.meta;
             const files = {};
             files.ref = temp;
-		// console.log(file)
+		// //console.log(file)
             struct[define.config] = require(`../${define.config}.json`);
             files.config = {};
             $.extend(true, files.config, struct[define.config]);
@@ -42,7 +42,7 @@ exports.preset = new Promise((resolve, reject) => {
               files.subset = require(`../${define.subset}.json`).subset;
             }
             files.set = require(`../${define.set}.json`);
-	// console.log(define)
+	// //console.log(define)
             ['en', 'sv'].forEach((lang) => {
 		    try{
 
@@ -58,7 +58,7 @@ exports.preset = new Promise((resolve, reject) => {
               files[lang].time = require(`../lang/${lang}/time.json`);
               files[lang].menu = language[lang];
 		    }catch(ERROR){
-			    console.log("define", define)
+			    //console.log("define", define)
 			    throw ERROR
 		    }
             });
@@ -66,8 +66,8 @@ exports.preset = new Promise((resolve, reject) => {
           // });
           return f;
         } catch (ERROR) {
-          console.log(ERROR);
-          console.log(file);
+          //console.log(ERROR);
+          //console.log(file);
           // throw ERROR
           return f;
         }

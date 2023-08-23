@@ -9,7 +9,7 @@ describe('test build', () => {
 		// throw err;
 		// }
 
-		// console.log(`${dir} is deleted!`);
+		// //console.log(`${dir} is deleted!`);
 		// });
 		if(!fs.existsSync('./test/static')){
 			fs.mkdir('./test/static', (err) => {
@@ -24,12 +24,12 @@ describe('test build', () => {
 						}else{
 							done()
 						}
-						console.log("Directory is created.");
+						//console.log("Directory is created.");
 					});
 				}else{
 					done()
 				}
-				console.log("Directory is created.");
+				//console.log("Directory is created.");
 			});
 		}else{
 			done()
@@ -42,7 +42,7 @@ describe('test build', () => {
 			// create new directory
 			app.genStaticFiles(__dirname).then((res) => {
 				// expect(0).to.eql(10)
-				console.log(res);
+				//console.log(res);
 				done();
 			}).catch((error) => {
 				done(error);
@@ -56,7 +56,7 @@ describe('test build', () => {
 	// 			throw err;
 	// 		}
 
-	// 		console.log(`${dir} is deleted!`);
+	// 		//console.log(`${dir} is deleted!`);
 	// 	});
 	// });
 });
