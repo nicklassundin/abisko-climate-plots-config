@@ -11,7 +11,7 @@ exports.preset = new Promise((resolve, reject) => {
           f[file.replace('.json', '')] = require(`./config/${file}`);
           return f;
         } catch (ERROR) {
-          console.log(ERROR);
+          //console.log(ERROR);
           throw ERROR;
         }
       })).then((res) => {

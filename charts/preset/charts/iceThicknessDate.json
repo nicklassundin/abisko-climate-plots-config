@@ -3,16 +3,13 @@
 	"type": "iceThick",
 	"tag": {
 		"render": "date",
-		"data": "date"
+		"data": ["complete_ice_cover", "yrly", "closest"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceThickDate",
-				"lang": "iceThickDate",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "iceThickDate",
+			"lang": "iceThickDate",
+			"set": "weather"
 		}
 	},
 	"months": false

@@ -3,22 +3,13 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["growingSeason", "weeks"],
-		"data": ["growingSeason", "weeks"]
+		"data": ["weekly", "growingSeason"]
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Weather",
-				"config": "growingSeason",
-				"lang": "growingSeason",
-				"set": "weatherWeeks"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "growingSeason",
-				"lang": "growingSeason",
-				"set": "weatherWeeks"
-			}
+			"config": "growingSeason",
+			"lang": "growingSeason",
+			"set": "weatherWeeks"
 		}
 	},
 	"months": false

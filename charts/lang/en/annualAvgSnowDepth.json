@@ -30,7 +30,7 @@
     "1": {
       "title": "[stationName] Annual Average Snow Depth Difference from Baseline",
       "subTitle": "",
-      "caption": "Difference between annual snow depth in centimeters and the average for the baseline period, typically 1961 to 1990.",
+      "caption": "Difference between annual snow depth in centimeters and the average for the baseline period, typically 1961 to 1990.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] cm.",
       "yAxis": {
         "left": "Average Snow depth [cm]",
         "right": "[X-AXIS]"

@@ -18,7 +18,7 @@
     "1": {
       "title": "Skillnad i sjöisens varande (från baslinjen)",
       "subTitle": "Torneträsk",
-      "caption": "Skillnad från baslinjen i antal dagar som sjön täcks helt av is.",
+      "caption": "Skillnad från baslinjen i antal dagar som sjön täcks helt av is.\n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] dagar.",
       "yAxis": {
         "left": "Skillnad i isens varande [units]",
         "right": "[X-AXIS]"

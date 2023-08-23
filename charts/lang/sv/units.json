@@ -10,8 +10,13 @@
     "interval": "veckovis"
   },
   "month": {
-    "plural": "",
-    "singular": "",
-    "interval": ""
+    "plural": "månader",
+    "singular": "månad",
+    "interval": "månadsvis"
+  },
+  "year": {
+    "plural": "år",
+    "singular": "år",
+    "interval": "årligt"
   }
 }

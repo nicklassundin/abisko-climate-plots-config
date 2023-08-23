@@ -4,7 +4,7 @@
     "0": {
       "title": "[season] Genomsnittlig temperatur",
       "subTitle": "[stationName] ",
-      "caption": "Genomsnittlig [season] ([period]) temperatur. Lägsta (min) och högsta (max) temperatur.",
+      "caption": "Genomsnittlig [season] ([period]) temperatur ([baselineValue]). Lägsta (min) och högsta (max) temperatur.",
       "legend": "Väder",
       "xAxis": {
         "bott": "År",

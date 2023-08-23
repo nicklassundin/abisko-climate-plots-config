@@ -3,16 +3,13 @@
 	"type": "zonal",
 	"tag": {
 		"render": "glob",
-		"data": "glob"
+		"data": ["temperature", "yrly"]
 	},
 	"config": {
 		"meta": {
-			"glob": {
-				"config": "temperature",
-				"lang": "glob_Temperature",
-				"data": "NASA-GISS-TEMP",
-				"set": "climate"
-			}
+			"config": "temperature",
+			"lang": "glob_Temperature",
+			"set": "climate"
 		}
 	},
 	"months": false

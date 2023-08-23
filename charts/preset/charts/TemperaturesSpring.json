@@ -7,18 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"config": "temperature",
-				"lang": "springTemperature",
-				"data": "SMHI-Weather",
-				"set": "weather"
-			},
-			"abisko": {
-				"config": "temperature",
-				"lang": "springTemperature",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "temperature",
+			"lang": "springTemperature",
+			"set": "weather"
 		}
 	},
 	"months": false

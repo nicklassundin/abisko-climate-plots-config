@@ -1,15 +1,15 @@
 {
-	"id": "temperature_nhem",
+	"id": "temperature_64n90n",
 	"type": "zonal",
 	"tag": {
-		"render": "nhem",
+		"render": "64n-90n",
 		"data": ["temperature", "yrly"]
 	},
 	"config": {
 		"meta": {
 			"config": "temperature",
-			"set": "climate",
-			"lang": "nhem_Temperature"
+			"lang": "64n-90n_Temperature",
+			"set": "climate"
 		}
 	},
 	"months": false

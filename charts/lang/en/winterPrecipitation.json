@@ -18,7 +18,7 @@
     "1": {
       "title": "Winter Average Precipitation Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the winter (December-February) seasonal averages and the average for the baseline period, [baseline].",
+      "caption": "Difference between the winter (December-February) seasonal averages and the average for the baseline period, [baseline].\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [mm].",
       "yAxis": {
         "left": "Average Precipitation [mm]",
         "right": "[X-AXIS]"

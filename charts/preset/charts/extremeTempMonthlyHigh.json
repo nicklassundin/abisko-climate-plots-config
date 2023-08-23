@@ -3,22 +3,13 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["temperatures","monthlyExtreme"],
-		"data": ["temperatures","monthlyExtremeHigh"]
+		"data": ["temperatures","months", "maxAvg"]
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Weather",
-				"config": "extremeTemperature",
-				"lang": "extremeTemperature",
-				"set": "slideExtremeMonth"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "extremeTemperature",
-				"lang": "extremeTemperature",
-				"set": "slideExtremeMonth"
-			}
+			"config": "extremeTemperature",
+			"lang": "extremeTemperature",
+			"set": "slideExtremeMonth"
 		}
 	},
 	"months": false

@@ -2,17 +2,14 @@
 	"id": "abiskoLakeIceTime",
 	"type": "tornetrask",
 	"tag": {
-		"render": "iceTime",
-		"data": "iceTime"
+		"render": ["iceTime"],
+		"data": ["icetime", "yrly"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceTime",
-				"lang": "iceTime",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "iceTime",
+			"lang": "iceTime",
+			"set": "weather"
 		}
 	},
 	"months": false

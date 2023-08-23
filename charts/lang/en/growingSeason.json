@@ -19,7 +19,7 @@
       "title": "Growing Season Difference ([units]) From Baseline",
       "subTitle": "[stationName]",
       "legend": "Climate",
-      "caption": "Difference between the maximum number of [units] above zero for the year (the frost-free season) and the average for the baseline period, [baseline]. This is calculated from temperature data.",
+      "caption": "Difference between the maximum number of [units] above zero for the year (the frost-free season) and the average for the baseline period, [baseline]. This is calculated from temperature data.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [unit].",
       "xAxis": {
         "bott": "Year",
         "top": "[Y-AXIS]"

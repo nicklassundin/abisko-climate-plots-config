@@ -3,16 +3,13 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "slideIceTime",
-		"data": "iceTime"
+		"data": ["icetime", "yrly"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceTime",
-				"lang": "iceTime",
-				"data": "ANS",
-				"set": "slide"
-			}
+			"config": "iceTime",
+			"lang": "iceTime",
+			"set": "slide"
 		}
 	},
 	"months": false

@@ -18,7 +18,7 @@
     "1": {
       "title": "Freeze-Up Date of Lake Ice Difference from Baseline",
       "subTitle": "Troneträsk",
-      "caption": "Freeze-up difference from baseline period, typically 1961 to 1990.",
+      "caption": "Freeze-up difference from baseline period ([baselineValue]), typically 1961 to 1990.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue].",
       "yAxis": {
         "left": "Ice freeze-up [day of year]",
         "right": "[X-AXIS]"

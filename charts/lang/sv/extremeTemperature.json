@@ -2,46 +2,32 @@
   "valueSuffix": "",
   "groups": {
     "0": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
+      "title": "Varmaste [unit] på året",
+      "subTitle": "[stationName]",
+      "caption": "Genomsnittliga temperaturen av den varmaste [unit] på året.",
       "yAxis": {
-        "left": "",
-        "right": ""
+        "left": "Genomsnittliga temperaturen på den varmaste [unit] på året [°C]",
+        "right": "[X-AXIS]"
       },
       "xAxis": {
-        "bott": "",
-        "top": ""
+        "bott": "År",
+        "top": "[Y-AXIS]"
       },
-      "legend": ""
+      "legend": "Väder"
     },
     "1": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
+      "title": "Temperatur Skillnad från Baselinjen",
+      "subTitle": "[stationName]",
+      "caption": "Skillnad mellan den årliga extremaste genomsnittliga [interval] temperaturen och den genomsnittliga extrema [interval] temperaturen för baslinjeperioden, baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
       "yAxis": {
-        "left": "",
-        "right": ""
+        "left": "Temperatur [°C]",
+        "right": "[X-AXIS]"
       },
       "xAxis": {
-        "bott": "",
-        "top": ""
+        "bott": "År",
+        "top": "[Y-AXIS]"
       },
-      "legend": ""
-    },
-    "2": {
-      "title": "",
-      "subTitle": "",
-      "caption": "",
-      "yAxis": {
-        "left": "",
-        "right": ""
-      },
-      "xAxis": {
-        "bott": "",
-        "top": ""
-      },
-      "legend": ""
+      "legend": "Klimat"
     }
   },
   "series": {

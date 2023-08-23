@@ -3,16 +3,13 @@
 	"type": "abiskoSnowDepth",
 	"tag": {
 		"render": "decadeMeans",
-		"data": "decadeMeans"
+		"data": ["snowdepth_single", "splitDecades"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "snowDepthDecade",
-				"lang": "snowDepthDecade",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "snowDepthDecade",
+			"lang": "snowDepthDecade",
+			"set": "weather"
 		}
 	},
 	"months": false

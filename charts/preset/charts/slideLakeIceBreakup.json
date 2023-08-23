@@ -3,16 +3,13 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "breakupDOY",
-		"data": ["DOY","breakup"]
+		"data": ["breakup","yrlySplit"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceBreakup",
-				"lang": "iceBreakup",
-				"data": "ANS",
-				"set": "slide"
-			}
+			"config": "iceBreakup",
+			"lang": "iceBreakup",
+			"set": "slide"
 		}
 	},
 	"months": false

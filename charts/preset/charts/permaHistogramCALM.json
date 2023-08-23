@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"CALM": {
-				"config": "perma",
-				"lang": "perma",
-				"data": "GTNP-ANL",
-				"set": "weather"
-			}
+			"config": "perma",
+			"lang": "perma",
+			"set": "weather"
 		}
 	},
 	"months": false

@@ -7,12 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "ice",
-				"lang": "ice",
-				"data": "ANS",
-				"set": "weather"
-			}
+			"config": "ice",
+			"lang": "ice",
+			"set": "weather"
 		}
 	},
 	"months": false

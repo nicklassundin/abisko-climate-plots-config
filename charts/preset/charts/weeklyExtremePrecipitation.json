@@ -7,18 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Hydrology",
-				"config": "precipitation",
-				"lang": "annualPrecipitation",
-				"set":"extremeWeek"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "precipitation",
-				"lang": "annualPrecipitation",
-				"set":"extremeWeek"
-			}
+			"config": "precipitation",
+			"lang": "annualPrecipitation",
+			"set":"extremeWeek"
 		}
 	},
 	"months": false

@@ -3,16 +3,13 @@
 	"type": "abiskoSnowDepth",
 	"tag": {
 		"render": ["snowDepth", "yrly"],
-		"data": ["snowDepth", "singleStake", "yrly"]
+		"data": ["snowdepth_single", "yrly"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "avgSnowDepth",
-				"lang": "annualAvgSnowDepth",
-				"data": "ANS",
-				"set": "slide"
-			}
+			"config": "avgSnowDepth",
+			"lang": "annualAvgSnowDepth",
+			"set": "slide"
 		}
 	},
 	"months": false

@@ -18,7 +18,7 @@
     "1": {
       "title": "Winter Average Temperature Difference From Baseline",
       "subTitle": "[stationName]",
-      "caption": "Difference between the winter (December-February) seasonal averages and the average for the baseline period, typically 1961 to 1990.",
+      "caption": "Difference between the winter (December-February) seasonal averages and the average for the baseline period, typically 1961 to 1990.\n The baseline value calculated for the period [baselineLower] to [baselineUpper] is [baselineValue] [°C].",
       "legend": "Climate",
       "xAxis": {
         "bott": "Year",

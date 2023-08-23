@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperaturskillnad från baslinjen",
       "subTitle": "Arktis",
-      "caption": "Skillnad mellan den årliga medeltemperaturen och medeltemperaturen för basperioden, vanligtvis 1961 till 1990, för den arktiska regionen (64N-90N).",
+      "caption": "Skillnad mellan den årliga medeltemperaturen och medeltemperaturen för basperioden, vanligtvis 1961 till 1990, för den arktiska regionen (64N-90N). \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
       "yAxis": {
         "left": "Temperatur [°C]",
         "right": "[X-AXIS]"

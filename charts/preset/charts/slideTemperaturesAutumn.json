@@ -7,18 +7,9 @@
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Weather",
-				"config": "temperature",
-				"lang": "autumnTemperature",
-				"set": "slide"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "temperature",
-				"lang": "autumnTemperature",
-				"set": "slide"
-			}
+			"config": "temperature",
+			"lang": "autumnTemperature",
+			"set": "slide"
 		}
 	},
 	"months": false

@@ -18,7 +18,7 @@
     "1": {
       "title": "Temperaturskillnad från baslinjen",
       "subTitle": "Global",
-      "caption": "Skillnad mellan den årliga medeltemperaturen och medeltemperaturen för baslinjeperioden, vanligtvis 1961 till 1990, för hela världen.",
+      "caption": "Skillnad mellan den årliga medeltemperaturen och medeltemperaturen för baslinjeperioden, vanligtvis 1961 till 1990, för hela världen. \n Baslinje värde beräknat för perioden [baselineLower] till [baselineUpper] är [baselineValue] [°C].",
       "yAxis": {
         "left": "Temperatur [°C]",
         "right": "[X-AXIS]"

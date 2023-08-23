@@ -3,22 +3,13 @@
 	"type": "[stationType]",
 	"tag": {
 		"render": ["precipitation","dailyExtreme"],
-		"data": ["precipitation","dailyExtremeHigh"]
+		"data": ["precipitation", "yrly", "maxAvg"]
 	},
 	"config": {
 		"meta": {
-			"smhi": {
-				"data": "SMHI-Hydrology",
-				"config": "extremePrecipitation",
-				"lang": "extremePrecipitation",
-				"set": "slideExtremeDay"
-			},
-			"abisko": {
-				"data": "ANS",
-				"config": "extremePrecipitation",
-				"lang": "extremePrecipitation",
-				"set": "slideExtremeDay"
-			}
+			"config": "extremePrecipitation",
+			"lang": "extremePrecipitation",
+			"set": "slideExtremeDay"
 		}
 	},
 	"months": false

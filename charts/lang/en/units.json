@@ -13,5 +13,10 @@
     "plural": "months",
     "singular": "month",
     "interval": "monthly"
+  },
+  "year": {
+    "plural": "years",
+    "singular": "year",
+    "interval": "annual"
   }
 }

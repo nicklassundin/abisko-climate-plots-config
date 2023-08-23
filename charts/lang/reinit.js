@@ -11,8 +11,8 @@ const getDirectories = source =>
 const dirname = __dirname
 const dir = getDirectories(dirname)
 
-console.log("Language Dirs")
-console.log(dir)
+//console.log("Language Dirs")
+//console.log(dir)
 
 var dirs = {};
 dir.forEach(lang => {
@@ -20,8 +20,8 @@ dir.forEach(lang => {
 		.filter(dirent => !dirent.isDirectory())
 		.map(dirent => dirent.name)
 		.filter(file => (path.extname(file) == ".json"))
-	// console.log(`Language Directory contents ${lang}`)
-	// console.log(dirs[lang])
+	// //console.log(`Language Directory contents ${lang}`)
+	// //console.log(dirs[lang])
 })
 
 var rec = (json) => {
@@ -30,7 +30,7 @@ var rec = (json) => {
 			json[key] = rec(json[key])
 		}else{
 			json[key] = "";
-			// console.log(typeof json[key])
+			// //console.log(typeof json[key])
 		}
 	})
 	return json

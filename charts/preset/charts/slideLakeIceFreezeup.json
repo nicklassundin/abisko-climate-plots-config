@@ -3,16 +3,13 @@
 	"type": "tornetrask",
 	"tag": {
 		"render": "freezeDOY",
-		"data": ["DOY","freeze"]
+		"data": ["freezeup", "yrlySplit"]
 	},
 	"config": {
 		"meta": {
-			"abisko": {
-				"config": "iceFreeze",
-				"lang": "iceFreeze",
-				"data": "ANS",
-				"set": "slide"
-			}
+			"config": "iceFreeze",
+			"lang": "iceFreeze",
+			"set": "slide"
 		}
 	},
 	"months": false
